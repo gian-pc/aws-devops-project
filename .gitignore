@@ -1,0 +1,12 @@
+# Terraform - archivos locales que no van a Github
+
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Variables con credenciales sensibles
+.tfvars
+
+# Mac - M1 jxjxjxjx
+.DS_Store
